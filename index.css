@@ -1,0 +1,31 @@
+:root {
+	--bg: #282a36;
+	--text: #f8f8f2;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+	background-color:var(--bg);
+}
+ 
+.red-border {
+	border-width:3px;
+	border-color:rgba(255,0,0,0.2);
+	border-style:solid;
+}
+ 
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: var(--text);
+	font-size: 10vw;
+}
+ 
+
+ 
